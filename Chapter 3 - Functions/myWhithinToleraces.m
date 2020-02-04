@@ -7,12 +7,12 @@ i = 1;
 tempvar = length(A)+1;
 decvar = get_decimal_place(tol);
 A = round(A, decvar);
-a = round(a, decvar);x
+a = round(a, decvar);
 tol = round(tol, decvar);
 
 while i < tempvar
     if round(abs(A(i)-a),decvar) <= round(tol,decvar) 
-        output = [output, A(i)];
+        output = [output, i];
     end
     i = i + 1;
 end
