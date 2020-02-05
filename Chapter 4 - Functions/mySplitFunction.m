@@ -10,4 +10,5 @@ end
 
 end
 
-   
+% feval(@funct, x) is a function that evaluate an inputed function at a
+% specific point x. For example, feval(@sin,1) = sin(1)
