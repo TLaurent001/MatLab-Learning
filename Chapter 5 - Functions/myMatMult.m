@@ -1,5 +1,7 @@
 function [M] = myMatMult(P,Q)
 
+% This is a cool function
+
 msofP = size(P);
 msofQ = size(Q);
 M = zeros(msofP(1),msofQ(2));
@@ -13,6 +15,9 @@ for m = 1:(msofP(1))
         M(m,n) = tempvar;
     end
 end
+
+
+
 
 end
 
