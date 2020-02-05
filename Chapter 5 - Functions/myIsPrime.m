@@ -5,9 +5,9 @@ i = 2;
 tf = true();
 
 if n == 1
-    out = true();
+    tf = false();
 elseif n == 2
-    tf = false();   
+    tf = true();   
 elseif n ~= 1
     while i < n
         if mod(n, i) == 0 
