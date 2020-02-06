@@ -2,6 +2,10 @@
 % from 1 to your last number, and checking at each point if it is a prime
 % and a fibonacci number.
 
+% Food for thought: a prob better way to do this would be to get a NFib
+% function and checking each component if its prime or not. This would
+% result in a whole lot less calculation for the computer and drastically
+% improving the time it takes for the computer to answer
 
 function [fibPrimes] = myNFibPrimes(N)
 tempvar = nan;
