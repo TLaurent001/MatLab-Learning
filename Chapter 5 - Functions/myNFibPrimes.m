@@ -16,8 +16,8 @@ function [fibPrimes] = myNFibPrimes(N)
 tempvar = nan;
 a = 1;
 while length(tempvar) ~= N+1
-    if myIsPrime(a) == true() && is_fibonacci(a) == true()
-        tempvar = [tempvar, a];
+    if myIsPrime(getfibonacci(a)) == true()
+        tempvar = [tempvar, getfibonacci(a)];
     end
     a = a+1;
 end
@@ -26,26 +26,6 @@ end
 
 % ---------------------------------------------------------------------- %
 % -------------------- SUB-FUNCTION 1 ---------------------------------- %
-% ---------------------------------------------------------------------- %
-
-function [output] = is_fibonacci(input)
-% This function looks if a number is a fibonacci number
-previousvalue = 0;
-currentvalue = 1;
-tf = false();
-while currentvalue < input+1
-    tempvar = previousvalue + currentvalue;
-    if (previousvalue + currentvalue) == input
-        tf = true();
-    end
-    previousvalue = currentvalue;
-    currentvalue = tempvar;
-end
-output = tf;
-end
-
-% ---------------------------------------------------------------------- %
-% -------------------- SUB-FUNCTION 2 ---------------------------------- %
 % ---------------------------------------------------------------------- %
 
 function [out] = myIsPrime(n)
@@ -67,4 +47,21 @@ end
 out = tf;
 end
 
+% ---------------------------------------------------------------------- %
+% -------------------- SUB-FUNCTION 2 ---------------------------------- %
+% ---------------------------------------------------------------------- %
+
+function [output1] = getfibonacci(input1)
+% This function gets a fibonacci number. This function is only meant to be
+% used in myNfibPrime function
+previousvalue1 = 0;
+currentvalue1 = 1;
+tempvar1 = 0;
+for i = 1:input1
+    tempvar1 = previousvalue1 + currentvalue1;
+    previousvalue1 = currentvalue1;
+    currentvalue1 = tempvar1;
+end 
+output1 = tempvar1;
+end
     
