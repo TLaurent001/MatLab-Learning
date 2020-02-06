@@ -23,8 +23,8 @@ if n == 1
     tf = false();
 elseif n == 2
     tf = true();   
-elseif n ~= 1
-    while i < n
+else
+    while i < n && tf == true()
         if mod(n, i) == 0 
             tf = false();
         end

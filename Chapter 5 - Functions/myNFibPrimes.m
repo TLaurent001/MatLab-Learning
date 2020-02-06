@@ -7,6 +7,11 @@
 % result in a whole lot less calculation for the computer and drastically
 % improving the time it takes for the computer to answer
 
+% This can be further improved if you change the myPrime function to look
+% for one wrong and then stop. And look for mod1 2 3 4 5 6 7 8 9 10 which
+% should be majority of divisible stuff
+
+
 function [fibPrimes] = myNFibPrimes(N)
 tempvar = nan;
 a = 1;
@@ -51,8 +56,8 @@ if n == 1
     tf = false();
 elseif n == 2
     tf = true();   
-elseif n ~= 1
-    while i < n
+else
+    while i < n && tf == true()
         if mod(n, i) == 0 
             tf = false();
         end
