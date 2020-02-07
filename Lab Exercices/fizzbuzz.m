@@ -1,6 +1,6 @@
 function fizzbuzz(n)
 
-for i = 1:n
+
     if mod(i,3) == 0
         if mod(i,5) == 0 
             fprintf('fizzbuzz, ')
@@ -12,7 +12,9 @@ for i = 1:n
     else
         fprintf('%.f, ',i)
     end
+    fprintf('\n')
 end
-fprintf('\n')
+
 
 end
+
