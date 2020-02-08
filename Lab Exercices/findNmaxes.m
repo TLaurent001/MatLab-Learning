@@ -12,7 +12,6 @@ end
    
 end
 
-
 function [M] = myMax(A)
 % This function finds the highest value in a matrix
 i = 1;
