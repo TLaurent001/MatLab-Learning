@@ -1,23 +1,24 @@
 function [node] = myConnectivityMat2Struct(C, names)
 
-node(1).name = cell2mat(names(1))
-node(1).neighbors = 
+for i = 1:length(names)
+    node(i).name = cell2mat(names(i));
+    node(i).neighbors = detect_index(i,C);
+end
+end
 
+% Detecting the index of the numbers inside the matrix. This function
+% should only be used in the myConnectivityMat2Struct function.
 
-
-
-% Detecting the name of the city
-
-% Detecting the index of the numbers inside the matrix
-
-function [output] = detec_index(namepos, C)
-i = 1;
-tempmatrix = C(1:size(C,1),namepos);
+function [output] = detect_index(namepos,Matrix)
+n = 1;
+tempmatrix = Matrix(1:size(Matrix,1),namepos);
 tempvar = nan;
-while i < size(namepos, 1)+1
-    if tempmatrix(i) == 1
-        tempvar = [tempvar, i];
+while n < length(tempmatrix) +1
+    if tempmatrix(n) == 1
+        tempvar = [tempvar, n];
     end
+    n = n +1;
 end
 output = tempvar(2:end);
-
+end
+    
