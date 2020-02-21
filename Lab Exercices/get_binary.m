@@ -1,18 +1,17 @@
-function [O] = get_binary(I)
-tempvar2 = get_index_binary(I)+1;
-counter = tempvar2(1);
-i = 1;
-tempM = zeros(1, tempvar2(1));
-while i < tempvar2(1) + 1  % 1:tempvar2(1)
-    if tempvar2(i) == counter
-        tempM(i) = 1;
-    else
-        i = i + 1;
-    end
-    counter = counter - 1;
+function [X] = get_binary(A1)
+% This function just inverse the invers binary function
+tempMatrix = indextobin(get_index_binary(A1));
+t2 = nan;
+for i = 1:length(tempMatrix)
+    a =length(tempMatrix) + 1 - i;
+    t2 = ([t2, tempMatrix(a)]);
 end
-O = tempM;
+X = t2(2:end);
 end
+
+%
+% Sub-Functions
+%
 
 function [output] = get_index_binary(input)
 i = 1;
@@ -66,6 +65,22 @@ else
     end
 end
 out = tempvar;
+end
+
+function [output3] = indextobin(input3)
+ % function that changes index matrix [7,4,3,1] to flipped binary
+ % [0,1,0,1,1,0,0,1]. Note that index of 0 exists
+ tempmatrix4 = input3 +1;
+ index_second_matrix = 0;
+ tempmatrix3 = zeros(1,tempmatrix4(1));
+ for index_second_matrix = index_second_matrix:tempmatrix4(1)
+     for i = 1:length(tempmatrix4) %checks every value for index if true then replace 0 by 1
+         if index_second_matrix == tempmatrix4(i)
+             tempmatrix3(index_second_matrix) = 1;
+         end
+     end
+ end
+ output3 = tempmatrix3;
 end
 
 
