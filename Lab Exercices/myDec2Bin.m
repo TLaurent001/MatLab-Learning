@@ -1,4 +1,4 @@
-function [X] = get_binary(A1)
+function [X] = myDec2Bin(A1)
 % This function just inverse the invers binary function
 t2 = nan;
 if A1 == 0
@@ -15,7 +15,6 @@ else
 end
 X = t2;
 end
-
 
 %
 % Sub-Functions
@@ -90,3 +89,5 @@ function [output3] = indextobin(input3)
  end
  output3 = tempmatrix3;
 end
+
+
