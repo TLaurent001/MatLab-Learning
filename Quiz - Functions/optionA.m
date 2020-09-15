@@ -9,6 +9,7 @@ while computing == true()
         break
     else
         tempvar2 = A(1);
+        lengthA = length(A);
         A = A(A~=A(1));
         if abs(length(A)-lengthA) > tempvar
             tempvar = abs(length(A)-lengthA);
