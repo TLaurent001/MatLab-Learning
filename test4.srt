@@ -12,7 +12,7 @@ These user-created miniature programs are called Macros, and their purpose in li
  
 4
 00:00:18,500 --> 00:00:21,000
-In this video, we will cover:
+In this video, we will cover
  
 5
 00:00:21,000 --> 00:00:24,500
