@@ -11,7 +11,7 @@ Today, I will be showing you how to create miniature programs within Excel’s D
 These user-created miniature programs are called Macros, and their purpose in life is to save you time. 
  
 4
-00:00:18,500 --> 00:00:21,000
+00:00:18,500 --> 0:00:21,000
 In this video, we will cover:
  
 5
