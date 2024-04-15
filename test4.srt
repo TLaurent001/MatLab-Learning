@@ -13,62 +13,63 @@ These user-created miniature programs are called Macros, and their purpose in li
 4
 00:00:18,500 --> 00:00:21,000
 In this video, we will cover
- 
+
 5
 00:00:21,000 --> 00:00:24,500
 Accessing and Enabling the Developer Tab in Excel
- 
+
 6
 00:00:25,000 --> 00:00:27,500
 Recording, Editing and Using a Macro
- 
+
 7
 00:00:28,000 --> 00:00:32,000
 And, near the end of the video, a follow along example
- 
+
 8
 00:00:32,000 --> 00:00:34,000
 [Pause]
- 
+
 9
 00:00:34,000 --> 00:00:38,000
 Let us start with Accessing and Enabling the Developer Tab. 
- 
+
 10
 00:00:38,000 --> 00:00:41,000
 These are the following step you will need to follow:
+
 11
 00:00:41,000 --> 00:00:44,000
 Step 1 – Open Excel
- 
+
 12
 00:00:44,000 --> 00:00:55,000
 Step 2 – First, click on the File tab in the top left corner and then clicks Options in the bottom left corner to open Excel Options.
- 
+
 13
 00:00:55,000 --> 00:01:01,000
 Step 3 - In the Excel Options window, find and select Customize Ribbon.
- 
+
 14
 00:01:01,000 --> 00:01:07,000
 Step 4 - In the Customize Ribbon menu, find the Main Tabs window (on the far right).
- 
+
 15
 00:01:07,000 --> 00:01:10,700
 In this window, find the Developer checkbox (at the bottom of the page), and check it. 
- 
+
 16
 00:01:11,000 --> 00:01:14,500
 This will add the Developer tab to your Excel ribbon.
- 
+
 17
 00:01:14,500 --> 00:01:16,000
 [Pause]
- 
+
 18
 00:01:16,000 --> 00:01:21,000
 If you come back to the main tab, you will now see that the Developer tab is enabled. 
- 
+
 19
 00:01:21,000 --> 00:01:26,000
 Next, Let’s move on to Recording, Editing and Using a Macro.
