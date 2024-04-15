@@ -73,185 +73,185 @@ If you come back to the main tab, you will now see that the Developer tab is ena
 19
 00:01:21,000 --> 00:01:26,000
 Next, Let’s move on to Recording, Editing and Using a Macro.
- 
+
 20
 00:01:27,000 --> 00:01:29,400
 These are the step you will need to follow:
- 
+
 21
 00:01:29,400 --> 00:01:36,000
 Step 1 – Click on the newly added Developer tab in the main menu to display the developer ribbon. 
- 
+
 22
 00:01:36,000 --> 00:01:42,000
 Step 2 - In the Developer ribbon, click on Record Macro.
- 
+
 23
 00:01:42,000 --> 00:01:49,500
 Step 3 – When the Macro Settings dialog box appears, enter content, or select options in each of the fields.
- 
+
 24
 00:01:50,000 --> 00:01:51,000
 These are:
- 
+
 25
 00:01:51,000 --> 00:01:55,000
 The Macro name field, which gives your macro a name (no spaces, start with a letter)
- 
+
 26
 00:01:55,000 --> 00:02:00,000
 The Store macro in field, which chooses where to save the macro.
- 
+
 27
 00:02:01,000 --> 00:02:08,000
 The Shortcut key field, which assigns a shortcut key if you want to run the macro with a keyboard shortcut. (It has as to be a Letter)
- 
+
 28
 00:02:09,000 --> 00:02:13,500
 And the Description field, which adds a description of what your macro does.
- 
+
 29
 00:02:14,000 --> 00:02:20,000
 Step 4 - After configuring the settings, click OK to start recording the macro.
- 
+
 30
 00:02:21,000 --> 00:02:26,000
 Step 5 - Perform the tasks in Excel that you want to automate. 
- 
+
 31
 00:02:26,000 --> 00:02:30,000
 Excel is now recording any actions you make. 
- 
+
 32
 00:02:30,000 --> 00:02:38,500
 Step 6 - Once you’ve completed recording the series of actions you want to automate, go back to the Developer Ribbon, and click Stop Recording.
- 
+
 33
 00:02:39,000 --> 00:02:43,000
 Congratulations! You have just created your very own Macro!
- 
+
 34
 00:02:43,000 --> 00:02:55,000
-Step 7 - You can run the macro by first going to the Developer ribbon, clicking "Macros" to open the Macro dialog box, then selecting the macro you want to run, and then clicking Run.
- 
+Step 7 - You can run the macro by first going to the Developer ribbon, clicking Macros to open the Macro dialog box, then selecting the macro you want to run, and then clicking Run.
+
 35
 00:02:55,000 --> 00:02:58,000
 It’s as simple as that!
- 
+
 36
 00:02:58,000 --> 00:03:01,000
 If you found this confusing, do not worry. 
- 
+
 37
 00:03:01,000 --> 00:03:09,000
 In this next segment we will create a macro together, in the form of a shortcut to quickly hide and unhide data.
- 
+
 38
 00:03:09,000 --> 00:03:20,000
 As an example, when presenting data to my colleagues I find it annoying to have to show 28 columns of data when just a couple of them are relevant to our discussion. 
- 
+
 39
 00:03:20,000 --> 00:03:23,700
 The Macro we will make together will turn this!
- 
+
 40
 00:03:23,700 --> 00:03:25,500
 into this!
- 
+
 41
 00:03:25,500 --> 00:03:28,500
 by a simple press of a shortcut key!
- 
+
 42
 00:03:29,000 --> 00:03:31,500
 Here are the steps we need to take:
- 
+
 43
 00:03:31,500 --> 00:03:36,000
 Step 1 - Access the Developer tab on the main Ribbon: 
- 
+
 44
 00:03:36,000 --> 00:03:39,000
 Step 2 - Press Record Macro
- 
+
 45
 00:03:39,000 --> 00:03:42,000
 Step 3 - Edit Macro Settings:
- 
+
 46
 00:03:42,000 --> 00:03:48,000
 We’ll assign the name HideColumns and use command+K as our keybind. 
- 
+
 47
 00:03:48,000 --> 00:03:51,700
 We’ll then choose where to store the macro.
- 
+
 48
 00:03:51,700 --> 00:03:55,000
 Then Click OK to start recording.
- 
+
 49
 00:03:55,000 --> 00:03:58,500
 Step 4 – We need to Hide the Columns:
- 
+
 50
 00:03:58,500 --> 00:04:05,000
 First, select the rows you wish to hide by clicking on the column’s letters on the top side of the Excel window. (You can select multiple columns by pressing Ctrl and right clicking)
- 
+
 51
 00:04:05,000 --> 00:04:10,500
 Then, Right-click the selected columns and choose Hide from the context menu.
- 
+
 52
 00:04:10,500 --> 00:04:17,000
 Step 5 - Stop Recording: Go back to the Developer tab and click on Stop Recording.
- 
+
 53
 00:04:17,000 --> 00:04:21,000
 Your Macro that quickly hides these columns is now done!
- 
+
 54
 00:04:21,000 --> 00:04:27,700
 Now for this last step, try to do it yourself. Pause the video and create a Macro to Unhide columns.
- 
+
 55
 00:04:27,700 --> 00:04:33,000
- If you are unsure on how to proceed, head back to the start of the video for a quick reminder.
+If you are unsure on how to proceed, head back to the start of the video for a quick reminder.
 (To unhide columns, select the columns surrounding the hidden columns and press the unhide button)
- 
+
 56
 00:04:33,000 --> 00:04:36,000
 [Pause] Try it yourself!
- 
+
 57
 00:04:36,000 --> 00:04:39,000
 Here is the final product! 
- 
+
 58
 00:04:39,000 --> 00:04:43,000
 You now have a Shortcut to hide and unhide rows. 
 (Run the Macro and try it out for yourself!)
- 
+
 59
 00:04:43,000 --> 00:04:45,500
 This concludes this video tutorial. 
- 
+
 60
 00:04:45,500 --> 00:04:48,500
 Let us make a small recap of what we learned today:
- 
+
 61
 00:04:48,500 --> 00:04:52,500
 We learned where to find the developer tab and how to enable it.
- 
+
 62
 00:04:52,500 --> 00:04:56,500
 We also learned how to record, edit, and run macros. 
- 
+
 63
 00:04:56,500 --> 00:05:03,000
 I hope these tools will permit you to automate your Excel Spreadsheets in your future and save you valuable time.
- 
+
 64
 00:05:03,000 --> 00:05:08,000
 Thanks for watching and have a wonderful day!
