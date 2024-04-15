@@ -204,7 +204,7 @@ Then, Right-click the selected columns and choose Hide from the context menu.
 
 52
 00:04:10,500 --> 00:04:17,000
-Step 5 - Stop Recording: Go back to the Developer tab and click on Stop Recording.
+Step 5 - Stop Recording. Go back to the Developer tab and click on Stop Recording.
 
 53
 00:04:17,000 --> 00:04:21,000
