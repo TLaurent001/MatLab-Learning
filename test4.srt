@@ -139,45 +139,45 @@ SolidWorks can even enhance your career or simply give you new opportunities:
 It can help Product designers better understand and explain their pitches.
 
 36
-00:02:58,000 --> 00:03:01,000
-If you found this confusing, do not worry. 
+00:03:31,000 --> 00:03:36,000
+It can help manufacturers to streamline communication with engineers. 
 
 37
-00:03:01,000 --> 00:03:09,000
-In this next segment we will create a macro together, in the form of a shortcut to quickly hide and unhide data.
+00:03:36,000 --> 00:03:41,000
+It can help Salespeople sell more product due to better visuals.
 
 38
-00:03:09,000 --> 00:03:20,000
-As an example, when presenting data to my colleagues I find it annoying to have to show 28 columns of data when just a couple of them are relevant to our discussion. 
+00:03:41,000 --> 00:03:42,500
+The list goes on.
 
 39
-00:03:20,000 --> 00:03:23,700
-The Macro we will make together will turn this!
+00:03:42,500 --> 00:03:46,000
+It can even increase your problem-solving skills!
 
 40
-00:03:23,700 --> 00:03:25,500
-into this!
+00:03:46,000 --> 00:03:48,000
+Still not convinced?
 
 41
-00:03:25,500 --> 00:03:28,500
-by a simple press of a shortcut key!
+00:03:48,000 --> 00:03:56,500
+Groups like PSP (Purdue Space Program) or Purdue FSAE, two of the most well-known and biggest groups on campus, all use Solidworks
 
 42
-00:03:29,000 --> 00:03:31,500
-Here are the steps we need to take:
+00:03:56,500 --> 00:04:02,500
+Researchers at Purdue, such as the folks over at the propulsion labs at Zucrow also use Solidworks.
 
 43
-00:03:31,500 --> 00:03:36,000
-Step 1 - Access the Developer tab on the main Ribbon: 
+00:04:02,500 --> 00:04:06,500
+The machining services for Purdue as well use Solidworks.
 
 44
-00:03:36,000 --> 00:03:39,000
-Step 2 - Press Record Macro
+00:04:06,500 --> 00:04:11,000
+If everyone is using it, why shouldn’t you?
 
 45
-00:03:39,000 --> 00:03:42,000
-Step 3 - Edit Macro Settings:
+00:04:11,000 --> 00:04:18,500
+There is also a free trial available for the latest Solidworks release available on www.solidworks.com
 
 46
-00:03:42,000 --> 00:03:48,000
-We’ll assign the name HideColumns and use command+K as our keybind. 
+00:04:18,500 --> 00:04:22,000
+Thank you for listening to this presentation.
