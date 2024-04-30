@@ -1,142 +1,142 @@
 1
-00:00:00,000 --> 00:00:01,500
-Hello everyone!
+00:00:00,000 --> 00:00:07,000
+Hi everyone and welcome to today’s presentation on Why should you learn and use Solidworks!
 
 2
-00:00:01,500 --> 00:00:12,500
-Today, I will be showing you how to create miniature programs within Excel’s Developer Tab in order to automate repetitive tasks or to create key-bound shortcuts within your spreadsheet
+00:00:07,000 --> 00:00:10,000
+Here is a summary of what we will talk over today:
 
 3
-00:00:12,500 --> 00:00:18,500
-These user-created miniature programs are called Macros, and their purpose in life is to save you time. 
+00:00:10,000 --> 00:00:13,500
+We will first start by asking what Solidworks is 
 
 4
-00:00:18,500 --> 00:00:21,000
-In this video, we will cover
+00:00:13,500 --> 00:00:17,000
+Why choose Solidworks and not another program
 
 5
-00:00:21,000 --> 00:00:24,500
-Accessing and Enabling the Developer Tab in Excel
+00:00:17,000 --> 00:00:19,000
+It's use cases 
 
 6
-00:00:25,000 --> 00:00:27,500
-Recording, Editing and Using a Macro
+00:00:19,000 --> 00:00:24,500
+And if you were not convinced, current Purdue users of Solidworks
 
 7
-00:00:28,000 --> 00:00:32,000
-And, near the end of the video, a follow along example
+00:00:24,500 --> 00:00:28,000
+Let’s first start with what is Solidworks
 
 8
-00:00:32,000 --> 00:00:34,000
-[Pause]
+00:00:28,000 --> 00:00:40,500
+Solidworks is a CAD software, or Computer Aided Design Software. CAD software enable engineers, designers, and manufacturers to create, simulate, publish, and manage 3D models
 
 9
-00:00:34,000 --> 00:00:38,000
-Let us start with Accessing and Enabling the Developer Tab. 
+00:00:40,500 --> 00:00:48,000
+It was developed in 1995 by Dassault Systems and offers a wide variety of capabilities. 
 
 10
-00:00:38,000 --> 00:00:41,000
-These are the following step you will need to follow:
+00:00:48,000 --> 00:00:50,500
+These capabilities include:
 
 11
-00:00:41,000 --> 00:00:44,000
-Step 1 – Open Excel
+00:00:50,500 --> 00:00:54,500
+CAD, which gives you the ability to model almost about anything.
 
 12
-00:00:44,000 --> 00:00:55,000
-Step 2 – First, click on the File tab in the top left corner and then clicks Options in the bottom left corner to open Excel Options.
+00:00:54,500 --> 00:00:59,000
+CFD, which can simulate fluid dynamics over your model.
 
 13
-00:00:55,000 --> 00:01:01,000
-Step 3 - In the Excel Options window, find and select Customize Ribbon.
+00:00:59,000 --> 00:01:02,500
+FEA, which simulates stress over your model.
 
 14
-00:01:01,000 --> 00:01:07,000
-Step 4 - In the Customize Ribbon menu, find the Main Tabs window (on the far right).
+00:01:02,500 --> 00:01:08,000
+Electrical Modeling which allows you to draw and test circuitry inside your model. 
 
 15
-00:01:07,000 --> 00:01:10,700
-In this window, find the Developer checkbox (at the bottom of the page), and check it. 
+00:01:08,000 --> 00:01:14,000
+And Drafting and CAM, which are essential to be able to manufacture your models. 
 
 16
-00:01:11,000 --> 00:01:14,500
-This will add the Developer tab to your Excel ribbon.
+00:01:14,000 --> 00:01:19,000
+All of this is integrated into one package which makes your life simpler.
 
 17
-00:01:14,500 --> 00:01:16,000
-[Pause]
+00:01:19,000 --> 00:01:27,000
+It also has many plugins which further enables you to just do about anything in the world of modeling.
 
 18
-00:01:16,000 --> 00:01:21,000
-If you come back to the main tab, you will now see that the Developer tab is enabled. 
+00:01:27,000 --> 00:01:32,500
+Let’s now compare Solidworks to other popular CAD programs! 
 
 19
-00:01:21,000 --> 00:01:26,000
-Next, Let’s move on to Recording, Editing and Using a Macro.
+00:01:32,500 --> 00:01:35,500
+The most popular programs are:
 
 20
-00:01:27,000 --> 00:01:29,400
-These are the step you will need to follow:
+00:01:35,500 --> 00:01:39,000
+AutoCAD, Fusion360 and CATIA
 
 21
-00:01:29,400 --> 00:01:36,000
-Step 1 – Click on the newly added Developer tab in the main menu to display the developer ribbon. 
+00:01:39,000 --> 00:01:52,000
+Solidworks is simply better due to its software being much more user friendly, cheaper in most cases, has lesser power requirements and thus is more accessible and is generally preferred when talking to manufacturers. 
 
 22
-00:01:36,000 --> 00:01:42,000
-Step 2 - In the Developer ribbon, click on Record Macro.
+00:01:52,000 --> 00:01:57,000
+Let’s now Jump forward and look at its use cases.
 
 23
-00:01:42,000 --> 00:01:49,500
-Step 3 – When the Macro Settings dialog box appears, enter content, or select options in each of the fields.
+00:01:57,000 --> 00:02:00,500
+For now, we’ll examine why this software is useful to an engineer.
 
 24
-00:01:50,000 --> 00:01:51,000
-These are:
+00:02:00,500 --> 00:02:07,000
+First, it is expected as a base skill for any engineer, thus knowing how to CAD is a must.
 
 25
-00:01:51,000 --> 00:01:55,000
-The Macro name field, which gives your macro a name (no spaces, start with a letter)
+00:02:07,000 --> 00:02:15,000
+Second, it is a fantastic tool to solve real-world problem such as making a new part and seeing if the new design will fit.
 
 26
-00:01:55,000 --> 00:02:00,000
-The Store macro in field, which chooses where to save the macro.
+00:02:15,000 --> 00:02:20,500
+Third, models give a better picture to people that may not be familiar with your field.
 
 27
-00:02:01,000 --> 00:02:08,000
-The Shortcut key field, which assigns a shortcut key if you want to run the macro with a keyboard shortcut. (It has as to be a Letter)
+00:02:20,500 --> 00:02:27,500
+And lastly, for any kind of precision manufacturing like in the automotive and aerospace industry, you simply cannot make anything without it.
 
 28
-00:02:09,000 --> 00:02:13,500
-And the Description field, which adds a description of what your macro does.
+00:02:27,500 --> 00:02:40,000
+Solidworks is also a steppingstone towards much higher fidelity simulation software for CFD and FEA as well as it prepares you for large team collaboration.
 
 29
-00:02:14,000 --> 00:02:20,000
-Step 4 - After configuring the settings, click OK to start recording the macro.
+00:02:40,000 --> 00:02:45,000
+We’ll now examine why this software is useful to anyone:
 
 30
-00:02:21,000 --> 00:02:26,000
-Step 5 - Perform the tasks in Excel that you want to automate. 
+00:02:45,000 --> 00:02:53,500
+With the recent evolution and the mass marketization of 3D printing, modeling is going to become an essential skill to have for your everyday life.
 
 31
-00:02:26,000 --> 00:02:30,000
-Excel is now recording any actions you make. 
+00:02:53,500 --> 00:03:06,000
+3D printing can solve your problems in the real world: For example, it can fix a broken sink tube or create a missing headphone stand for your desk or even help you prototype ideas. 
 
 32
-00:02:30,000 --> 00:02:38,500
-Step 6 - Once you’ve completed recording the series of actions you want to automate, go back to the Developer Ribbon, and click Stop Recording.
+00:03:06,000 --> 00:03:13,500
+Understanding how to model will also translate to improvement in other areas such as home improvement and the gestion of space.
 
 33
-00:02:39,000 --> 00:02:43,000
-Congratulations! You have just created your very own Macro!
+00:03:13,500 --> 00:03:20,000
+It can even give a better understanding of complex systems such as your car for better repairs.
 
 34
-00:02:43,000 --> 00:02:55,000
-Step 7 - You can run the macro by first going to the Developer ribbon, clicking Macros to open the Macro dialog box, then selecting the macro you want to run, and then clicking Run.
+00:03:20,000 --> 00:03:26,000
+SolidWorks can even enhance your career or simply give you new opportunities:
 
 35
-00:02:55,000 --> 00:02:58,000
-It’s as simple as that!
+00:03:26,000 --> 00:03:31,000
+It can help Product designers better understand and explain their pitches.
 
 36
 00:02:58,000 --> 00:03:01,000
@@ -181,77 +181,3 @@ Step 3 - Edit Macro Settings:
 46
 00:03:42,000 --> 00:03:48,000
 We’ll assign the name HideColumns and use command+K as our keybind. 
-
-47
-00:03:48,000 --> 00:03:51,700
-We’ll then choose where to store the macro.
-
-48
-00:03:51,700 --> 00:03:55,000
-Then Click OK to start recording.
-
-49
-00:03:55,000 --> 00:03:58,500
-Step 4 – We need to Hide the Columns:
-
-50
-00:03:58,500 --> 00:04:05,000
-First, select the rows you wish to hide by clicking on the column’s letters on the top side of the Excel window. (You can select multiple columns by pressing Ctrl and right clicking)
-
-51
-00:04:05,000 --> 00:04:10,500
-Then, Right-click the selected columns and choose Hide from the context menu.
-
-52
-00:04:10,500 --> 00:04:17,000
-Step 5 - Stop Recording. Go back to the Developer tab and click on Stop Recording.
-
-53
-00:04:17,000 --> 00:04:21,000
-Your Macro that quickly hides these columns is now done!
-
-54
-00:04:21,000 --> 00:04:27,700
-Now for this last step, try to do it yourself. Pause the video and create a Macro to Unhide columns.
-
-55
-00:04:27,700 --> 00:04:33,000
-If you are unsure on how to proceed, head back to the start of the video for a quick reminder.
-(To unhide columns, select the columns surrounding the hidden columns and press the unhide button)
-
-56
-00:04:33,000 --> 00:04:36,000
-[Pause] Try it yourself!
-
-57
-00:04:36,000 --> 00:04:39,000
-Here is the final product! 
-
-58
-00:04:39,000 --> 00:04:43,000
-You now have a Shortcut to hide and unhide rows. 
-(Run the Macro and try it out for yourself!)
-
-59
-00:04:43,000 --> 00:04:45,500
-This concludes this video tutorial. 
-
-60
-00:04:45,500 --> 00:04:48,500
-Let us make a small recap of what we learned today:
-
-61
-00:04:48,500 --> 00:04:52,500
-We learned where to find the developer tab and how to enable it.
-
-62
-00:04:52,500 --> 00:04:56,500
-We also learned how to record, edit, and run macros. 
-
-63
-00:04:56,500 --> 00:05:03,000
-I hope these tools will permit you to automate your Excel Spreadsheets in your future and save you valuable time.
-
-64
-00:05:03,000 --> 00:05:08,000
-Thanks for watching and have a wonderful day!
