@@ -120,7 +120,7 @@ With the recent evolution and the mass marketization of 3D printing, modeling is
 
 31
 00:02:53,500 --> 00:03:06,000
-3D printing can solve your problems in the real world: For example, it can fix a broken sink tube or create a missing headphone stand for your desk or even help you prototype ideas. 
+3D printing can solve your problems in the real world. For example, it can fix a broken sink tube or create a missing headphone stand for your desk or even help you prototype ideas. 
 
 32
 00:03:06,000 --> 00:03:13,500
